@@ -1,7 +1,10 @@
-```select *,
+```
+select *,
 acd.floor_flat = 1 as is_first_floor,
 acd.floor_flat = acd.floor_max is_max_floor 
-from team18.dataset_table```
+from team18.dataset_table
+
+```
 
 
 Показатель | Тип данных | Тип переменной | Смысл | Источник  
